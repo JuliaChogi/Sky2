@@ -23,6 +23,25 @@
         }
     }
 
+    &__blue2 {
+        height: 3rem;
+        width: 8rem;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        border: 1px solid #0772BF;
+        background-color: #0772BF;
+        border-radius: 4px;
+
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: $color_white;
+    }
+
     &__white {
         height: 3rem;
         width: 8rem;

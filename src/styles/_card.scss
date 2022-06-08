@@ -4,7 +4,7 @@
     justify-content: space-around;
     align-items: center;
 
-    width: 25%;
+    width: 33%;
 
     padding-top: 2rem;
 
@@ -29,7 +29,7 @@
 .card__bottom {
     display: flex;
     align-items: center;
-    
+
 
     &__price {
         font-weight: 600;
@@ -37,7 +37,7 @@
         line-height: 22px;
         letter-spacing: 0.03em;
         color: $color_black;
-    
+
     }
 
     &__sale {
@@ -47,12 +47,51 @@
         line-height: 19px;
         letter-spacing: 0.03em;
         color: $color_lightgrey;
-        
+
         margin-left: 0.3rem;
     }
+}
+
+.card__bottom__stars {
+    display: flex;
+
+    margin-left: 0.3rem;
+}
+
+.adv_card {
+    display: flex;
+    flex-direction: column;
+    
+
+    width: 25%;
+
+    color: $color_black;
+
+    border: 1px solid $color_lightgrey;
+
+    &__pic {
+        align-self: center;
+        padding-top: 0.5rem;
     }
-    .card__bottom__stars {
-        display: flex;
+
+    &__text {
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        padding-left: 1rem;
+
+    }
+
+    &__price {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        padding-bottom: 1rem;
         
-        margin-left: 0.3rem;
     }
+
+}

@@ -11,6 +11,11 @@
   margin: 0 auto;
 }
 
+hr {
+  border: 1px solid #BFBEBE;
+  margin-top: 4rem;
+}
+
 .btn__blue {
   height: 3rem;
   width: 8rem;
@@ -34,6 +39,27 @@
 
 .btn__blue::before {
   content: url(../img/stripes.png);
+}
+
+.btn__blue2 {
+  height: 3rem;
+  width: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #0772BF;
+  background-color: #0772BF;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
 }
 
 .btn__white {
@@ -145,10 +171,10 @@
   position: absolute;
 }
 
-input {
+.search__input {
   border: none;
   width: 80%;
-  color: #C4C4C4;
+  color: #000000;
 }
 
 .client {
@@ -173,6 +199,7 @@ input {
   -ms-flex-line-pack: center;
       align-content: center;
   margin-right: 1rem;
+  gap: 3px;
 }
 
 .client__lang::after {
@@ -282,7 +309,7 @@ input {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 25%;
+  width: 33%;
   padding-top: 2rem;
 }
 
@@ -332,5 +359,281 @@ input {
   display: -ms-flexbox;
   display: flex;
   margin-left: 0.3rem;
+}
+
+.adv_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 25%;
+  color: #000000;
+  border: 1px solid #C4C4C4;
+}
+
+.adv_card__pic {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-top: 0.5rem;
+}
+
+.adv_card__text {
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  padding-left: 1rem;
+}
+
+.adv_card__price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.03em;
+}
+
+.shop_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section1 {
+  width: 30%;
+}
+
+.section2 {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.bottom_selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1rem;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+  color: #BFBEBE;
+}
+
+.advertise_tittle {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.bottom_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 4rem;
+}
+
+.contact_info1 {
+  padding-left: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+}
+
+.contact_info_tittle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+}
+
+.contact_info_text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+}
+
+.contact_info2 {
+  padding-right: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+}
+
+.email_text {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.contact_email_submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.email {
+  border: 1px solid #BFBEBE;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.input:focus {
+  text-decoration: none;
+  border: none;
+}
+
+.call {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+}
+
+.navigation_lists_footer {
+  width: 100%;
+  height: 2.5rem;
+  background-color: #1977DA;
+  margin-top: 2rem;
+}
+
+.navigation_list_footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding-top: 0.5rem;
+  gap: 3.5rem;
+}
+
+.navigation__link2 {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.03em;
+}
+
+.footer__lists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.list_header {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  padding-bottom: 1rem;
+}
+
+.footer_list {
+  list-style: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.03em;
+}
+
+.footer__logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.logos_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+.logos_text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer_link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
 }
 /*# sourceMappingURL=styles.css.map */

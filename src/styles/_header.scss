@@ -72,10 +72,10 @@
     }
 }
 
-input {
+.search__input {
     border: none;
     width: 80%;
-    color: $color_lightgrey;
+    color: $color_black;
 }
 
 .client {
@@ -92,6 +92,7 @@ input {
         display: flex;
         align-content: center;
         margin-right: 1rem;
+        gap: 3px;
 
 
         &::after {
@@ -107,6 +108,7 @@ input {
 
         &::after {
             content: url(../img/vectordown.png);
+            
         }
     }
 
