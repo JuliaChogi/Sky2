@@ -177,6 +177,10 @@ hr {
   color: #000000;
 }
 
+.search__input:focus-visible {
+  outline: none;
+}
+
 .client {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -565,7 +569,7 @@ hr {
           justify-content: center;
   list-style: none;
   padding-top: 0.5rem;
-  gap: 3.5rem;
+  gap: 5.5rem;
 }
 
 .navigation__link2 {
@@ -635,5 +639,13 @@ hr {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
+}
+
+.mail_sub {
+  border: none;
+}
+
+.mail_sub:focus-visible {
+  outline: none;
 }
 /*# sourceMappingURL=styles.css.map */

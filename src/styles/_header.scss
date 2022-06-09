@@ -76,6 +76,10 @@
     border: none;
     width: 80%;
     color: $color_black;
+
+    &:focus-visible{
+    outline: none;
+}
 }
 
 .client {
